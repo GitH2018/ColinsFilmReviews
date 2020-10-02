@@ -1,0 +1,302 @@
+/* main.css   - Main CSS file - to be used across the Website_Project */
+/* to use this in your html pages paste this into the <head> section of thise oages */
+/* <!-- in <HEAD> to incorporate main.css into your html ... -->       */
+/* <link rel="stylesheet" type="text/css" href="main.css">             */
+/* Link to google font to be used */
+/* ****** Link to the TAJAWAL font  .. font-family: 'Tajawal', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Tajawal&display=swap");
+
+*   { /* use this font throughout ALL pages */
+    font-family: 'Tajawal', sans-serif;
+    box-sizing: border-box;
+}
+
+.box {
+        color:white;
+        font-size: 50px;
+        font-family: 'Tajawal', sans-serif;
+        text-align: center;
+        align-content: center;
+        justify-content: center;  /* flex-start = left, center = middle, flex-end = right */
+        align-self: center;
+        align-items: center; /* flex-start = top, center = middle, flex-end = bottom */
+        vertical-align: center;
+        padding:3px;
+        width: auto;
+        height: auto;
+    }
+
+.box_pix {
+        display: flex;
+        color:white;
+        font-size: 150px;
+        font-family: 'Tajawal', sans-serif;
+        text-align: center;
+        align-content: center;
+        justify-content: center;  /* flex-start = left, center = middle, flex-end = right */
+        align-self: flex-start;
+        align-items: flex-start; /* flex-start = top, center = middle, flex-end = bottom */
+/*        vertical-align: center; */
+        padding:3px;
+        width: auto;
+        height: auto;
+    }
+
+.box_review {
+    color:white;
+    font-size: 30px;
+    font-family: 'Tajawal', sans-serif;
+    text-align: center;
+    justify-content: center; /* flex-start = left, center = middle, flex-end = right */
+    align-content: center;
+    align-items: center; /* flex-start = top, center = middle, flex-end = bottom */
+    align-self: center;
+    vertical-align: center;
+    padding: 3px;
+    width: auto;
+    height: auto;
+}
+
+.box1 { background:#eccc68;}
+.box2 { background:#ff6348;}
+.box3 { background:#ff7f50;}
+.box4 { background:#ff4757;}
+.box5 { background:#f1c40f;}
+.box6 { background:lightgreen;}
+.box7 { background:lightcoral;}
+.box8 { background:lightcyan;}
+    
+.menu1 { background:lightgreen;}
+.menu2 { background:lightblue; }
+.menu3 { background:lightcoral;}
+.menu4 { background:lightslategray;}
+.menu5 { background:limegreen;}
+.menu6 { background:gold;}
+
+.pix_menu1 { background:lightgreen;}
+.pix_menu2 { background:lightblue; }
+.pix_menu3 { background:lightcoral;}
+.pix_menu4 { background:lightslategray;}
+.pix_menu5 { background:limegreen;}
+.pix_menu6 { background:gold;}
+.pix_menu7 { background:lightsalmon;}
+.pix_menu8 { background:lightskyblue;}
+
+.box_review_title { 
+    background:lightgreen;
+    height: 30px;
+    width: 150px;
+}
+.box_review_date { 
+    background:lightblue; 
+    height: 30px;
+    width: 150px;
+}
+.box_review_subject { 
+    background:lightcoral;
+    height: 30px;
+    width: 150px;
+}
+.box_review_text { 
+    background:lightslategray;
+    height: 450px;
+    width: 450px;
+}
+
+.container {
+    display: flex;
+}
+    
+.container_menus {
+    display: flex;
+    width: auto;
+    height: 50px;
+/*  min-height: 100vh; */
+    flex-direction: row; /* default order */
+    justify-content: center; /* to left, center, or right of main screen */
+    align-content: center;
+    align-self: auto;
+    align-items: baseline;
+    vertical-align: middle;
+} 
+
+.container_pix_menus {
+    display: flex;
+    width: auto;
+    height: 130px;
+/*  min-height: 100vh; */
+    flex-direction: row; /* default order */
+    flex-shrink: inherit;
+    justify-content: center; /* flex-start =left, center, or flex-end = right */
+    align-content: center;
+    align-self: auto;
+    align-items: center;
+    vertical-align: middle;
+    flex-wrap: wrap;
+} 
+
+.container_review {
+    display: flex;
+    width: auto;
+    height: 130px;
+/*  min-height: 100vh; */
+    flex-direction: row; /* default order */
+    flex-shrink: inherit;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: flex-end; /* go to right */
+    align-content: center;
+    align-self: auto;
+    align-items: center;
+    vertical-align: middle;
+/*
+    flex: 1 100%;
+    .box_review_title { flex: 1 0px; }
+    .box_review_date { order: 1; }
+    .box_review_subject { order: 2; }
+    .box_review_subject { order: 3; }
+    .box_review_text  { order: 4; }
+*/
+} 
+
+/*  element changes */
+h1 {    /* apply this to all h1 elements */
+    color:white;
+}    
+
+h2 {    /* apply this to all h2 elements */
+    color:gold;
+    font-weight: bold;
+}    
+
+a {   /* apply this to all anchor elements */
+    color:gold;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.img {  /* apply this to image elements */
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+form {    /* apply this to all form elements */
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+    text-size-adjust: 30px;
+}    
+
+/*  Class changes */
+.pageBannerTextWhite {
+    color:white;
+    font-weight: bold;    
+    font-size: 50px;
+}
+
+.pageBannerTextGold {
+    color:gold;
+    font-weight: bold;    
+    font-size: 40px;
+}
+
+.bannerColour1 {  /* class used to apply this to elements */
+	background-color: blue;
+    color: gold;
+    font-weight: bold;
+}
+
+.bannerColour2 {  /* class used to apply this to elements */
+	background-color: orange;
+    color:black;
+    font-weight: bold;
+}
+
+.img_transparent_full {  /* tests with opacity settings */
+    opacity: 0.0;
+}
+
+.img_transparent_half {  /* tests with opacity settings */
+    opacity: 0.5;
+}
+.img_transparent_none {  /* tests with opacity settings */
+    opacity: 1.0;
+}
+
+.grid-container3 { /* create a 3 column grid - aurosize the column widths */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px; /* row height */
+/*    justify-content: space-evenly;  */
+    justify-content: center;}
+
+.grid-container4 { /* create a 4 column grid - aurosize the column widths */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 80px; /* row height */
+/*    justify-content: space-evenly;  */
+    justify-content: center;
+}
+
+.grid-container4x4 { /* create a 4 x 4 column grid - aurosize the column widths */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    justify-content: center;
+}
+
+.gridItemFilmTitle { /* item 1 - Film Title in grid starts in col 1 and spans 2 columns */
+    grid-area: myFilmTitle;
+    grid-column: 1 / 2;
+    grid-row: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center
+}
+
+.gridItemFilmDateScore { /* item 2 - Film Review Date / Score in grid starts in col 1 and spans 2 columns */
+    grid-area: myFilmDateScore;
+    grid-column: 1 / 2;
+    grid-row: 2;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center
+}
+
+.gridItemFilmPic { /* item 3 - Film Pic in grid starts in col 1 and spans 2 columns */
+    grid-area: myFilmPic;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center
+}
+
+.gridItemFilmReview { /* item 4 - Film Pic in grid starts in col 1 and spans 2 columns */
+    grid-area: myFilmReview;
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center
+}
+
+/*  ID special one-off changes */
+#myTextSettings {  
+    /* one off - use for text entered to form fields */
+    /*    id="formTextSettings" */
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+}  

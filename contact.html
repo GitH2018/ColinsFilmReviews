@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- contact.html -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- in <HEAD> to incorporate main.css into your html ... -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <title>Colin's Film Reviews</title>  <!-- main screen banner title text -->
+    <div>
+        <div class="container_menus">
+            <div>
+                <a href="index.html" class="box menu1"> <img src="home.jpg" width=100px height=50px></a>
+            </div>
+            <div>
+                <a href="about.html" class="box menu2"> <img src="about_me1.png" alt="About" width=100px height=50px></a>
+            </div>
+            <div>
+                <a href="contact.html" class="box menu3"> <img src="contact.jpg" alt="Contact" width=100px height=50px></a>
+            </div>
+            <div>
+                <a href="feedback.html" class="box menu4"> <img src="feedback.jpg" alt="Feedback" width=100px height=50px></a>
+            </div>
+            <div>
+                <a href="events.html" class="box menu5"> <img src="events.jpg" alt="Events" width=100px height=50px></a>
+            </div>
+            <div>
+                <a href="film_reviews.html" class="box menu6"> <img src="film_reviews.jpg" alt="Film Reviews" width=100px height=50px></a>
+            </div>
+        </div>
+        <br>        
+        <br>        
+        <div>
+            <div>
+                <!-- store images in SAME directory as the html file --> 
+                <!-- alt describes the image to be shown    -->	
+                <img src="contact.jpg" alt="Contact" width="450" height="180">
+                <div class="pageBannerTextWhite">Film Reviews - Contact Page</div>
+                <div class="pageBannerTextGold">Welcome to my film reviews Contact page ...</div> 
+            </div>            
+        </div>
+    </div>
+</head>
+<body>
+    <div>
+        <style>
+            body {
+                background-image: url("film_background_05.jpg");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+        </style>
+    </div>
+    <div>
+        <h1>MY CONTACT DETAILS:</h1>    
+        <h2>Name:       Colin Coyne<br>
+        Company:        Coyne Operations Ltd<br>
+        Email:      coyneops@gmail.com<br><br>
+
+        Send me an e-mail?:
+        <form action="mailto:coyneops@gmail.com" method="post" enctype="text/plain">
+            <strong>
+            Name:<br>
+            <input type="text" id="user_name" name="user_name" font-weight="bold" size=50><br>
+            E-mail:<br>
+            <input type="email" id="email" name="email" size=30><br>
+            Phone:<br>
+<!--        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+-->            
+            <input type="tel" id="phone" name="phone"><br>
+            Subject:<br>
+            <input type="text" id="subject" name="subject" size="80"><br>
+            Comment:<br>
+            <textarea input type="textarea" id="comment" name="comment" rows="4" cols="150">
+            </textarea>
+            <br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+            </strong>
+        </form> 
+        </h2>
+        <div>
+            <p> 
+                <!-- Note: the target="_blank" ensures that a NEW browser tab is open for the site selected -->
+                <h1 id="myTextSettings">Media links:</h1> 
+                <a href="https://www.twitter.com" target="_blank"> <img src="twitter_logo.jpg" alt="Twitter"  width="50" height="50"></a>
+                <a href="https://www.facebook.com" target="_blank"> <img src="facebook_logo.png" alt="Facebook"  width="50" height="50"></a>
+                <a href="https://www.instagram.com" target="_blank"> <img src="instagram_logo.jpg" alt="Instagram"  width="50" height="50"></a>
+                <a href="https://www.imdb.com" target="_blank"> <img src="imdb_logo.jpg" alt="IMDB"  width="50" height="50"></a>
+            </p>        
+        </div>
+    </div> 
+    <br>
+    <br>
+    <div class="bannerColour1">
+        <strong>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>  
+        <a href="contact.html">Contact</a>  
+        <a href="feedback.html">Feedback</a>  
+        <a href="events.html">Events</a>  
+        <a href="film_reviews.html">Film Reviews</a>  
+        </strong>
+    </div>
+    <div class="bannerColour2">
+        <strong>
+        Copywrite ©2015-2020, Coyne Operations Ltd, all rights reserved. A company registered in England and Wales (no: 09673961)
+    </strong>
+    </div>
+</body>
+</html>
